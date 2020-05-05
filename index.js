@@ -12,7 +12,7 @@ function nowServing(current_line) {
 
 function currentLine(current_line) {
   if (current_line.length > 0) {
-    return "The line is currently:" + arr.join()
+    return "The line is currently:" + current_line.join()
   }
   return "The line is currently empty."
 }
