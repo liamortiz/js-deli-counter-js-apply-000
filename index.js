@@ -1,6 +1,6 @@
-function takeANumber(num_lines, name) {
-  num_lines.push(name)
-  return `Welcome, ${name}. You are number ${num_lines.length} in line.`
+function takeANumber(num_lines) {
+  num_lines.push(num_lines.length)
+  return `You are ticket number ${num_lines.length}.`
 }
 
 function nowServing(current_line) {
